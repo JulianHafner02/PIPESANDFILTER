@@ -41,6 +41,8 @@ public class PullPipelineFactory {
              */
             @Override
             protected void render(float fraction, Model model) {
+
+                //sink.read();
                 // TODO compute rotation in radians
 
                 // TODO create new model rotation matrix using pd.getModelRotAxis and Matrices.rotate
